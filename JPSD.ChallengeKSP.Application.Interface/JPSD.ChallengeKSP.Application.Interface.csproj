@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Application.DTO\JPSD.ChallengeKSP.Application.DTO.csproj" />
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Transversal.Common\JPSD.ChallengeKSP.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>

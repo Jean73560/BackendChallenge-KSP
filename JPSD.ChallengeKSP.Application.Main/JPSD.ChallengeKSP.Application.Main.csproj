@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Application.DTO\JPSD.ChallengeKSP.Application.DTO.csproj" />
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Application.Interface\JPSD.ChallengeKSP.Application.Interface.csproj" />
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Domain.Entity\JPSD.ChallengeKSP.Domain.Entity.csproj" />
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Domain.Interface\JPSD.ChallengeKSP.Domain.Interface.csproj" />
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Transversal.Common\JPSD.ChallengeKSP.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>
