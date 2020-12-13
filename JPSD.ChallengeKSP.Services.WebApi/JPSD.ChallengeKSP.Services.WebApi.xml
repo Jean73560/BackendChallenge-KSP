@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JPSD.ChallengeKSP.Services.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:JPSD.ChallengeKSP.Services.WebApi.Controllers.BeneficiariesController.InsertAsync(JPSD.ChallengeKSP.Application.DTO.BeneficiariesDTO)">
+            <summary>
+            Insertamos un Beneficiario
+            </summary>
+            <param name="beneficiariesDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JPSD.ChallengeKSP.Services.WebApi.Controllers.BeneficiariesController.UpdateAsync(JPSD.ChallengeKSP.Application.DTO.BeneficiariesDTO)">
+            <summary>
+            Actualizamos un Beneficiario
+            </summary>
+            <param name="beneficiariesDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JPSD.ChallengeKSP.Services.WebApi.Controllers.BeneficiariesController.DeleteAsync(System.Int32)">
+            <summary>
+            Eliminamos a un Beneficiario
+            </summary>
+            <param name="beneficiaryId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JPSD.ChallengeKSP.Services.WebApi.Controllers.BeneficiariesController.GetAsync(System.Int32)">
+            <summary>
+            Llamada para obtener a un beneficiario
+            </summary>
+            <param name="beneficiaryId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JPSD.ChallengeKSP.Services.WebApi.Controllers.BeneficiariesController.GetByEmployeeAsync(System.Int32)">
+            <summary>
+            Llamada para obtener al beneficiario de un empleado
+            </summary>
+            <param name="employeeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JPSD.ChallengeKSP.Services.WebApi.Controllers.BeneficiariesController.GetAllAsync">
+            <summary>
+            Obtenemos todos los Beneficiarios
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:JPSD.ChallengeKSP.Services.WebApi.Controllers.EmployeesController.InsertAsync(JPSD.ChallengeKSP.Application.DTO.EmployeesDTO)">
+            <summary>
+            Insertamos a un Empleado
+            </summary>
+            <param name="employeesDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JPSD.ChallengeKSP.Services.WebApi.Controllers.EmployeesController.UpdateAsync(JPSD.ChallengeKSP.Application.DTO.EmployeesDTO)">
+            <summary>
+            Actualizamos un Empleado
+            </summary>
+            <param name="employeesDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JPSD.ChallengeKSP.Services.WebApi.Controllers.EmployeesController.DeleteAsync(System.Int32)">
+            <summary>
+            Eliminamos a un Empleado, eliminado logico
+            </summary>
+            <param name="employeeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JPSD.ChallengeKSP.Services.WebApi.Controllers.EmployeesController.GetAsync(System.Int32)">
+            <summary>
+            Llamada para obtener a un empleado
+            </summary>
+            <param name="employeeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:JPSD.ChallengeKSP.Services.WebApi.Controllers.EmployeesController.GetAllAsync">
+            <summary>
+            Obtenemos todos los Empleado
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
