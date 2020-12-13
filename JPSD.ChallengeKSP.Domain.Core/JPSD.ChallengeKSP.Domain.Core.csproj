@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Domain.Entity\JPSD.ChallengeKSP.Domain.Entity.csproj" />
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Domain.Interface\JPSD.ChallengeKSP.Domain.Interface.csproj" />
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Infrastructure.Interface\JPSD.ChallengeKSP.Infrastructure.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

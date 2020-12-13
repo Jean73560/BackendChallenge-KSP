@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPSD.ChallengeKSP.Domain.En
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPSD.ChallengeKSP.Infrastructure.Repository", "JPSD.ChallengeKSP.Infrastructure.Repository\JPSD.ChallengeKSP.Infrastructure.Repository.csproj", "{154562D5-8E08-4A06-9596-DBBA6128D967}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPSD.ChallengeKSP.Domain.Interface", "JPSD.ChallengeKSP.Domain.Interface\JPSD.ChallengeKSP.Domain.Interface.csproj", "{C63F569A-1514-4532-B0CE-57DA453EDE40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPSD.ChallengeKSP.Domain.Core", "JPSD.ChallengeKSP.Domain.Core\JPSD.ChallengeKSP.Domain.Core.csproj", "{4EDDA73E-8534-4BF5-B886-33F1B29F6551}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +69,14 @@ Global
 		{154562D5-8E08-4A06-9596-DBBA6128D967}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{154562D5-8E08-4A06-9596-DBBA6128D967}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{154562D5-8E08-4A06-9596-DBBA6128D967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C63F569A-1514-4532-B0CE-57DA453EDE40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C63F569A-1514-4532-B0CE-57DA453EDE40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C63F569A-1514-4532-B0CE-57DA453EDE40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C63F569A-1514-4532-B0CE-57DA453EDE40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EDDA73E-8534-4BF5-B886-33F1B29F6551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EDDA73E-8534-4BF5-B886-33F1B29F6551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EDDA73E-8534-4BF5-B886-33F1B29F6551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EDDA73E-8534-4BF5-B886-33F1B29F6551}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -77,6 +89,8 @@ Global
 		{9945F451-011B-4219-9451-F892A8DA4000} = {42AE7BD7-AF6B-436D-A135-654D24DFD82E}
 		{11E63798-6FBA-4A9B-97E2-B42FF8D81387} = {71CD98D4-A289-495B-ACB7-59DD9F6888D1}
 		{154562D5-8E08-4A06-9596-DBBA6128D967} = {42AE7BD7-AF6B-436D-A135-654D24DFD82E}
+		{C63F569A-1514-4532-B0CE-57DA453EDE40} = {71CD98D4-A289-495B-ACB7-59DD9F6888D1}
+		{4EDDA73E-8534-4BF5-B886-33F1B29F6551} = {71CD98D4-A289-495B-ACB7-59DD9F6888D1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97153936-AFE0-4EEF-B52D-7E4CD5B8A92A}
