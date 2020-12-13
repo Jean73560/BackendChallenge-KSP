@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPSD.ChallengeKSP.Transvers
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transversal", "Transversal", "{3AB0646D-E808-4D4B-940C-DAA2B1994E06}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScriptsDataBase", "ScriptsDataBase", "{C92141F4-8CF2-49D4-8EC6-19252DECD116}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "JPSD.ChallengeKSP.DataBase.Scripts", "JPSD.ChallengeKSP.DataBase.Scripts\JPSD.ChallengeKSP.DataBase.Scripts.sqlproj", "{4CBA0CEB-3DA9-475C-AF03-D60E1EE7FC72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,19 @@ Global
 		{7CB0CFE8-41BC-4008-B19B-BCB4A3175E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CB0CFE8-41BC-4008-B19B-BCB4A3175E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CB0CFE8-41BC-4008-B19B-BCB4A3175E8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CBA0CEB-3DA9-475C-AF03-D60E1EE7FC72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CBA0CEB-3DA9-475C-AF03-D60E1EE7FC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CBA0CEB-3DA9-475C-AF03-D60E1EE7FC72}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4CBA0CEB-3DA9-475C-AF03-D60E1EE7FC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CBA0CEB-3DA9-475C-AF03-D60E1EE7FC72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CBA0CEB-3DA9-475C-AF03-D60E1EE7FC72}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{7CB0CFE8-41BC-4008-B19B-BCB4A3175E8D} = {3AB0646D-E808-4D4B-940C-DAA2B1994E06}
+		{4CBA0CEB-3DA9-475C-AF03-D60E1EE7FC72} = {C92141F4-8CF2-49D4-8EC6-19252DECD116}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97153936-AFE0-4EEF-B52D-7E4CD5B8A92A}
