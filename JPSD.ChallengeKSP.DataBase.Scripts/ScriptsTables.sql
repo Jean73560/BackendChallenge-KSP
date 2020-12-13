@@ -51,3 +51,14 @@ GO
 GO
  CREATE  INDEX "Relationship" ON "dbo"."Beneficiaries"("Relationship")
 GO
+
+
+
+/*INSERTS A LAS TABLAS EMPLOYEES Y BENEFICIARIES*/
+INSERT INTO Employees ([FullName] ,[Work] ,[Salary] ,[Status] ,[HireDate] ,[PhotoPath] ,[Phone])
+VALUES('Jean Pierre Soto Delgado', '.NET Full Stack Developer', 25000, 1, '2020/12/15', 'https://ksp.storage.com/001.jpg','9982212701')
+GO
+
+INSERT INTO Beneficiaries ([EmployeeID] ,[FullName] ,[Relationship] ,[BirthDate] ,[Gender])
+     VALUES( 1, 'Vicente Gutierrez Reyes', 'Padre', '1958-01-03', 'M')
+GO

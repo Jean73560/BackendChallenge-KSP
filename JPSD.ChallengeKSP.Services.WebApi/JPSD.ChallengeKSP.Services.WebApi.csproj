@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Application.DTO\JPSD.ChallengeKSP.Application.DTO.csproj" />
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Application.Interface\JPSD.ChallengeKSP.Application.Interface.csproj" />
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Application.Main\JPSD.ChallengeKSP.Application.Main.csproj" />
+    <ProjectReference Include="..\JPSD.ChallengeKSP.DataBase.Scripts\JPSD.ChallengeKSP.DataBase.Scripts.sqlproj" />
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Domain.Core\JPSD.ChallengeKSP.Domain.Core.csproj" />
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Domain.Entity\JPSD.ChallengeKSP.Domain.Entity.csproj" />
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Domain.Interface\JPSD.ChallengeKSP.Domain.Interface.csproj" />
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Infrastructure.Data\JPSD.ChallengeKSP.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Infrastructure.Interface\JPSD.ChallengeKSP.Infrastructure.Interface.csproj" />
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Infrastructure.Repository\JPSD.ChallengeKSP.Infrastructure.Repository.csproj" />
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Transversal.Common\JPSD.ChallengeKSP.Transversal.Common.csproj" />
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Transversal.Logging\JPSD.ChallengeKSP.Transversal.Logging.csproj" />
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Transversal.Mapper\JPSD.ChallengeKSP.Transversal.Mapper.csproj" />
+  </ItemGroup>
+
+
+</Project>

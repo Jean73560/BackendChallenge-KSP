@@ -1,4 +1,95 @@
-﻿/*=========== Creamos Stores Procedures de para operaciones CRUD de la tabla "Beneficiaries" ===========*/
+﻿
+/*==================== CREAMOS STORE PROCEDURE CON OPERACIONES CRUD DE LA TABLA "EMPLOYESS" =========================*/
+
+/*INSERT EMPLOYEE*/
+CREATE PROCEDURE EmployeesInsert
+(
+	@FullName nvarchar (50),
+	@Work nvarchar (40),
+	@Salary decimal,	
+	@Status bit NULL ,
+	@HireDate datetime NULL,	
+	@PhotoPath nvarchar (255) NULL ,
+	@Phone nvarchar (24) NULL 
+)
+AS
+BEGIN
+
+	INSERT INTO Employees (FullName, Work, Salary, Status, HireDate, PhotoPath, Phone)
+	VALUES (@FullName, @Work, @Salary, @Status, @HireDate, @PhotoPath, @Phone)
+
+END
+GO
+
+/*UPDATE EMPLOYEE*/
+CREATE PROCEDURE EmployeesUpdate
+(
+	@EmployeeID int,
+	@FullName nvarchar (50),
+	@Work nvarchar (40),
+	@Salary decimal,	
+	@Status bit NULL ,
+	@HireDate datetime NULL,	
+	@PhotoPath nvarchar (255) NULL ,
+	@Phone nvarchar (24) NULL 
+)
+AS
+BEGIN
+	UPDATE Employees
+		SET
+		FullName = @FullName,
+		Work = @Work,
+		Salary = @Salary,	
+		Status = @Status,
+		HireDate = @HireDate,	
+		PhotoPath = @PhotoPath,
+		Phone = @Phone
+	WHERE EmployeeID = @EmployeeID
+END
+GO
+
+/*SELECT GetAll Employees*/
+CREATE PROCEDURE EmployeesGetAll
+AS
+BEGIN
+
+    SELECT EmployeeID, FullName, Work, Salary, Status, HireDate, PhotoPath, Phone
+    FROM Employees
+
+END
+GO
+
+/*SELECT Employees GetByID*/
+CREATE PROCEDURE EmployeesGetByID
+(
+	@EmployeeID int
+)
+AS
+BEGIN
+
+    SELECT EmployeeID, FullName, Work, Salary, Status, HireDate, PhotoPath, Phone
+    FROM Employees
+	WHERE EmployeeID = @EmployeeID
+
+END
+GO
+
+
+/*DELETE EMPLOYEE*/
+CREATE PROCEDURE EmployeesDelete
+(
+	@EmployeeID int
+)
+AS
+BEGIN
+
+    DELETE Employees
+    WHERE EmployeeID = @EmployeeID
+
+END
+GO
+
+/*=========== Creamos Stores Procedures de para operaciones CRUD de la tabla "Beneficiaries" ===========*/
 
 
 /*Insert Beneficiaries*/
@@ -92,6 +183,3 @@ BEGIN
 	WHERE EmployeeID = @EmployeeID
 END
 GO
-
-
-

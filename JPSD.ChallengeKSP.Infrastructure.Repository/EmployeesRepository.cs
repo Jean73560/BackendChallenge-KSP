@@ -91,7 +91,7 @@ namespace JPSD.ChallengeKSP.Infrastructure.Repository
         {
             using (var connection = _connectionFactory.GetConnection)
             {
-                var query = "EmployeesGetByID";
+                var query = "EmployeesGetAll";
 
                 var employees = await connection.QueryAsync<Employees>(query, commandType: CommandType.StoredProcedure);
                 return employees;

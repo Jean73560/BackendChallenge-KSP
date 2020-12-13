@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPSD.ChallengeKSP.Transvers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPSD.ChallengeKSP.Application.Main", "JPSD.ChallengeKSP.Application.Main\JPSD.ChallengeKSP.Application.Main.csproj", "{0524B3AF-BAC7-4513-82AE-6448DD67F7C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JPSD.ChallengeKSP.Services.WebApi", "JPSD.ChallengeKSP.Services.WebApi\JPSD.ChallengeKSP.Services.WebApi.csproj", "{3DD87A4F-630E-4125-B3BA-052929E87AF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,10 @@ Global
 		{0524B3AF-BAC7-4513-82AE-6448DD67F7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0524B3AF-BAC7-4513-82AE-6448DD67F7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0524B3AF-BAC7-4513-82AE-6448DD67F7C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD87A4F-630E-4125-B3BA-052929E87AF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD87A4F-630E-4125-B3BA-052929E87AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD87A4F-630E-4125-B3BA-052929E87AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD87A4F-630E-4125-B3BA-052929E87AF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -119,6 +125,7 @@ Global
 		{38656705-952A-419B-81E8-9322EBEA7645} = {A991E9A3-AF70-4CEA-AC19-5AC1A23B33C2}
 		{3C42CC89-B584-4291-9276-E4D0FEAEF551} = {3AB0646D-E808-4D4B-940C-DAA2B1994E06}
 		{0524B3AF-BAC7-4513-82AE-6448DD67F7C9} = {A991E9A3-AF70-4CEA-AC19-5AC1A23B33C2}
+		{3DD87A4F-630E-4125-B3BA-052929E87AF0} = {8F3D6CD9-31BB-45C1-B3F3-47341FAC39D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {97153936-AFE0-4EEF-B52D-7E4CD5B8A92A}
