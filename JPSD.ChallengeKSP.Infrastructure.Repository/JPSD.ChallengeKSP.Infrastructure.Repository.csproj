@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.78" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Infrastructure.Data\JPSD.ChallengeKSP.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Infrastructure.Interface\JPSD.ChallengeKSP.Infrastructure.Interface.csproj" />
+    <ProjectReference Include="..\JPSD.ChallengeKSP.Transversal.Common\JPSD.ChallengeKSP.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>
